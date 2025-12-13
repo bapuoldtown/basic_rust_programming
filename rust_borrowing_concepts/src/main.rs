@@ -71,7 +71,8 @@ fn main() {
     let d1 = Dog {breed: 'b'};
     let d2 = d1;
     println!("The breed of d1 is: {}, and the breed of d2 is: {}", d1.breed, d2.breed);
-    //This shoulld go fine as we have supprssed the semantics from by default move to copy but please remember its member shoukld have copy semantics  
+    //This shoulld go fine as we have supprssed the semantics from by default move to copy but please remember its member shoukld have copy semantics 
+    // 
 }
 
 fn add_ten(x: i32) -> i32{

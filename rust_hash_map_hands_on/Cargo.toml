@@ -1,0 +1,6 @@
+[package]
+name = "rust_hash_map_hands_on"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
